@@ -20,3 +20,8 @@ after_success:
   - git config --global user.name "JamesCullum (Pseudonym)"
   - git config --global user.email "https://mailhide.io/e/Wno7k"
   - npm run publish-docs
+
+deploy:
+  provider: npm
+  email: "blasium110+npm@gmail.com"
+  api_key: $NPM_AUTH_TOKEN
