@@ -11,7 +11,7 @@
 		"report": "nyc report --reporter=text-lcov > coverage.lcov",
 		"codecov": "codecov -e TRAVIS_NODE_VERSION",
 		"docs": "jsdoc -c ./.jsdoc-conf.json",
-		"publish-docs": "gh-pages --dist docs"
+		"publish-docs": "gh-pages --repo https://$GH_TOKEN@github.com/JamesCullum/fido2-lib.git --dist docs"
 	},
 	"keywords": [
 		"webauthn",

@@ -12,10 +12,12 @@ node_js:
 before_script:
   - npm prune
   - 'curl -Lo travis_after_all.py https://git.io/vLSON'
+script:
+  - npm run lint
+  - npm test
 after_success:
   - python travis_after_all.py
   - export $(cat .to_export_back)
-  - npm run lint
   - npm run report
   - npm run codecov
   - npm run docs
