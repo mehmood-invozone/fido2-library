@@ -25,3 +25,5 @@ deploy:
   provider: npm
   email: "blasium110+npm@gmail.com"
   api_key: $NPM_AUTH_TOKEN
+  on:
+    branch: master

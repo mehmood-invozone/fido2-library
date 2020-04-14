@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/jamescullum/fido2-lib.svg?branch=master)](https://travis-ci.org/jamescullum/fido2-lib) [![Coverage Status](https://coveralls.io/repos/github/jamescullum/fido2-lib/badge.svg?branch=master)](https://coveralls.io/github/jamescullum/fido2-lib?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/jamescullum/fido2-lib/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jamescullum/fido2-lib?targetFile=package.json)
+[![Build Status](https://travis-ci.com/jamescullum/fido2-lib.svg?branch=master)](https://travis-ci.com/jamescullum/fido2-lib) [![Coverage Status](https://coveralls.io/repos/github/jamescullum/fido2-lib/badge.svg?branch=master)](https://coveralls.io/github/jamescullum/fido2-lib?branch=master) [![Known Vulnerabilities](https://snyk.io/test/github/jamescullum/fido2-lib/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jamescullum/fido2-lib?targetFile=package.json)
 
 ## Install
 
 ``` bash
-npm install fido2-lib
+npm install fido2-library
 ```
 
 ## Overview
@@ -39,7 +39,7 @@ For working examples see [OWASP Single Sign-On](https://github.com/OWASP/SSO_Pro
 
 **Instantiate Library (Simple):**
 ``` js
-const { Fido2Lib } = require("fido2-lib");
+const { Fido2Lib } = require("fido2-library");
 
 // create a new instance of the library
 var f2l = new Fido2Lib();
