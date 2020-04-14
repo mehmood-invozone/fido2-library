@@ -6,8 +6,8 @@
   "types": "./types/index.d.ts",
   "scripts": {
     "test": "nyc mocha",
-	"report": "nyc report --reporter=text-lcov > coverage.lcov",
-	"codecov": "codecov -e TRAVIS_NODE_VERSION",
+    "report": "nyc report --reporter=text-lcov > coverage.lcov",
+    "codecov": "codecov -e TRAVIS_NODE_VERSION",
     "docs": "jsdoc -c ./.jsdoc-conf.json",
     "publish-docs": "gh-pages --dist docs"
   },
@@ -32,15 +32,15 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
+    "codecov": "^3.5.0",
     "docdash": "^0.4.0",
     "fido2-helpers": "^1.7.2",
-    "gh-pages": "^0.12.0",
-    "istanbul": "^1.1.0-alpha.1",
-    "istanbul-coveralls": "^1.0.3",
+    "gh-pages": "^2.2.0",
     "jsdoc": "^3.5.5",
-    "mocha": "^2.5.3",
+    "mocha": "^6.1.4",
     "mockery": "^2.0.0",
-    "sinon": "^1.17.6"
+    "nyc": "^14.1.1",
+    "sinon": "^7.3.2"
   },
   "dependencies": {
     "asn1js": "^2.0.18",
@@ -48,7 +48,7 @@
     "cose-to-jwk": "^1.1.0",
     "jwk-to-pem": "^2.0.0",
     "node-jose": "^1.0.0",
-    "node-webcrypto-ossl": "^1.0.35",
+    "node-webcrypto-ossl": "^1.0.48",
     "pkijs": "=2.1.58",
     "psl": "^1.1.24"
   }
