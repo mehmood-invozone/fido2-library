@@ -6,7 +6,7 @@
   "scripts": {
     "test": "istanbul cover _mocha",
     "docs": "jsdoc -c ./.jsdoc-conf.json",
-    "publish-docs": "gh-pages --repo https://$GH_TOKEN@github.com/apowers313/fido2-lib.git --dist docs"
+    "publish-docs": "gh-pages --dist docs"
   },
   "keywords": [
     "webauthn",
@@ -17,15 +17,14 @@
     "u2f",
     "server"
   ],
-  "author": "Adam Powers",
+  "author": "Adam Powers & Contributors",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apowers313/fido2-lib"
+    "url": "https://github.com/JamesCullum/fido2-lib"
   },
   "bugs": {
-    "url": "https://github.com/apowers313/fido2-lib/issues",
-    "email": "apowers@ato.ms"
+    "url": "https://github.com/JamesCullum/fido2-lib/issues"
   },
   "devDependencies": {
     "chai": "^4.1.2",

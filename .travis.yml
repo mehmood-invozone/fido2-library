@@ -6,9 +6,9 @@ notifications:
   email: true
 language: node_js
 node_js:
-  - '8'
-  - '9'
-  - '10'
+  - '11'
+  - '12'
+  - '13'
 before_script:
   - npm prune
   - 'curl -Lo travis_after_all.py https://git.io/vLSON'
@@ -17,6 +17,6 @@ after_success:
   - export $(cat .to_export_back)
   - istanbul-coveralls
   - npm run docs
-  - git config --global user.name "Adam Powers"
-  - git config --global user.email "apowers@ato.ms"
+  - git config --global user.name "JamesCullum (Pseudonym)"
+  - git config --global user.email "https://mailhide.io/e/Wno7k"
   - npm run publish-docs
