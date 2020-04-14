@@ -114,4 +114,4 @@ For a real-life example, refer to [OWASP Single Sign-On](https://github.com/OWAS
 
 ## Sponsor
 
-Work for this project was supported by [Adam Power](https://github.com/jamescullum).
+Work for this project was supported by [Adam Power](https://github.com/apowers313).
