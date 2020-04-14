@@ -5,7 +5,9 @@
   "main": "index.js",
   "types": "./types/index.d.ts",
   "scripts": {
-    "test": "istanbul cover _mocha",
+    "test": "nyc mocha",
+	"report": "nyc report --reporter=text-lcov > coverage.lcov",
+	"codecov": "codecov -e TRAVIS_NODE_VERSION",
     "docs": "jsdoc -c ./.jsdoc-conf.json",
     "publish-docs": "gh-pages --dist docs"
   },

@@ -15,7 +15,8 @@ before_script:
 after_success:
   - python travis_after_all.py
   - export $(cat .to_export_back)
-  - istanbul-coveralls
+  - npm run report
+  - npm run codecov
   - npm run docs
   - git config --global user.name "JamesCullum (Pseudonym)"
   - git config --global user.email "https://mailhide.io/e/Wno7k"
