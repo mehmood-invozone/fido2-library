@@ -11,7 +11,7 @@
 		"report": "nyc report --reporter=text-lcov > coverage.lcov",
 		"codecov": "codecov -e TRAVIS_NODE_VERSION",
 		"docs": "jsdoc -c ./.jsdoc-conf.json",
-		"publish-docs": "gh-pages --repo https://$GH_TOKEN@github.com/JamesCullum/fido2-lib.git --dist docs"
+		"publish-docs": "gh-pages --repo https://$GH_TOKEN@github.com/FIDO-Tools/fido2-library.git --dist docs"
 	},
 	"keywords": [
 		"webauthn",
@@ -26,10 +26,10 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/JamesCullum/fido2-lib"
+		"url": "https://github.com/FIDO-Tools/fido2-library"
 	},
 	"bugs": {
-		"url": "https://github.com/JamesCullum/fido2-lib/issues"
+		"url": "https://github.com/FIDO-Tools/fido2-library/issues"
 	},
 	"devDependencies": {
 		"babel-eslint": "^10.1.0",

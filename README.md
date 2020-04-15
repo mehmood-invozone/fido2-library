@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.com/jamescullum/fido2-lib.svg?branch=master)](https://travis-ci.com/jamescullum/fido2-lib)
-[![Coverage Status](https://coveralls.io/repos/github/JamesCullum/fido2-lib/badge.svg?branch=master)](https://coveralls.io/github/JamesCullum/fido2-lib?branch=master)
-[![Known Vulnerabilities](https://snyk.io/test/github/jamescullum/fido2-lib/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jamescullum/fido2-lib?targetFile=package.json)
+[![Build Status](https://travis-ci.com/FIDO-Tools/fido2-library.svg?branch=master)](https://travis-ci.com/FIDO-Tools/fido2-library)
+[![Coverage Status](https://coveralls.io/repos/github/FIDO-Tools/fido2-library/badge.svg?branch=master)](https://coveralls.io/github/FIDO-Tools/fido2-library?branch=master)
+[![Known Vulnerabilities](https://snyk.io/test/github/FIDO-Tools/fido2-library/badge.svg?targetFile=package.json)](https://snyk.io/test/github/FIDO-Tools/fido2-library?targetFile=package.json)
 
 ## Install
 
@@ -16,14 +16,14 @@ A library for performing FIDO 2.0 / WebAuthn server functionality
 This library contains all the functionality necessary for implementing a full FIDO2 / WebAuthn server. It intentionally does not implement any kind of networking protocol (e.g. - REST endpoints) so that it can remain independent of any messaging protocols.
 
 There are four primary functions:
-1. [attestationOptions](https://jamescullum.github.io/fido2-lib/Fido2Lib.html#attestationOptions) - creates the challenge that will be sent to the client (e.g. - browser) for the credential create call. Note that the library does not keep track of sessions or context, so the caller is expected to associate the resulting challenge with a session so that it can be appropriately matched with a response.
-2. [attestationResult](https://jamescullum.github.io/fido2-lib/Fido2Lib.html#attestationResult) - parses and validates the response from the client
-3. [assertionOptions](https://jamescullum.github.io/fido2-lib/Fido2Lib.html#assertionOptions) - creates the challenge that will be sent to the client for credential assertion.
-4. [assertionResult](https://jamescullum.github.io/fido2-lib/Fido2Lib.html#assertionResult) - parses and validates the response from the client
+1. [attestationOptions](https://fido-tools.github.io/fido2-library/Fido2Lib.html#attestationOptions) - creates the challenge that will be sent to the client (e.g. - browser) for the credential create call. Note that the library does not keep track of sessions or context, so the caller is expected to associate the resulting challenge with a session so that it can be appropriately matched with a response.
+2. [attestationResult](https://fido-tools.github.io/fido2-library/Fido2Lib.html#attestationResult) - parses and validates the response from the client
+3. [assertionOptions](https://fido-tools.github.io/fido2-library/Fido2Lib.html#assertionOptions) - creates the challenge that will be sent to the client for credential assertion.
+4. [assertionResult](https://fido-tools.github.io/fido2-library/Fido2Lib.html#assertionResult) - parses and validates the response from the client
 
 There is also an extension point for adding new attestation formats.
 
-Full documentation can be found [here](https://jamescullum.github.io/fido2-lib/).
+Full documentation can be found [here](https://fido-tools.github.io/fido2-library/).
 
 For working examples see [OWASP Single Sign-On](https://github.com/OWASP/SSO_Project) and / or [webauthn.io](https://webauthn.io/)
 
