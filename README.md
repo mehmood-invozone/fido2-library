@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/FIDO-Tools/fido2-library.svg?branch=master)](https://travis-ci.com/FIDO-Tools/fido2-library)
-[![Coverage Status](https://coveralls.io/repos/github/FIDO-Tools/fido2-library/badge.svg?branch=master)](https://coveralls.io/github/FIDO-Tools/fido2-library?branch=master)
+[![Code Coverage](https://codecov.io/gh/FIDO-Tools/fido2-library/branch/master/graph/badge.svg)](https://codecov.io/gh/FIDO-Tools/fido2-library)
 [![Known Vulnerabilities](https://snyk.io/test/github/FIDO-Tools/fido2-library/badge.svg?targetFile=package.json)](https://snyk.io/test/github/FIDO-Tools/fido2-library?targetFile=package.json)
 
 ## Install
