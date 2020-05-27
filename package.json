@@ -1,6 +1,6 @@
 {
 	"name": "fido2-library",
-	"version": "2.4.0",
+	"version": "2.4.1",
 	"description": "A library for performing FIDO 2.0 / WebAuthn functionality",
 	"main": "index.js",
 	"types": "./types/index.d.ts",
@@ -35,7 +35,7 @@
 		"babel-eslint": "^10.1.0",
 		"chai": "^4.1.2",
 		"chai-as-promised": "^7.1.1",
-		"codecov": "^3.5.0",
+		"codecov": "^3.7.0",
 		"docdash": "^0.4.0",
 		"eslint": "^6.8.0",
 		"eslint-plugin-vue": "^6.2.2",
@@ -53,7 +53,7 @@
 		"cose-to-jwk": "^1.1.0",
 		"jwk-to-pem": "^2.0.0",
 		"node-jose": "^1.0.0",
-		"node-webcrypto-ossl": "^1.0.48",
+		"node-webcrypto-ossl": "^1.0.49",
 		"pkijs": "=2.1.58",
 		"psl": "^1.1.24"
 	},
