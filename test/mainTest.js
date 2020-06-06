@@ -508,8 +508,7 @@ describe("Fido2Lib", function() {
 				},
 			};
 			
-			return serv.attestationResult(makeCredentialAttestationSafetyNetResponse, expectations).then((res) => {
-				console.log(res);
+			return serv.attestationResult(makeCredentialAttestationSafetyNetResponse, expectations).then(res => {
 				assert.instanceOf(res, Fido2AttestationResult);
 				return res;
 			});
